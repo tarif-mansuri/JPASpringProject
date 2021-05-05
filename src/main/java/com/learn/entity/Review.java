@@ -1,6 +1,5 @@
 package com.learn.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -41,7 +40,7 @@ public class Review {
 		this.description = description;
 	}
 
-	public Review(String rating, String description, Course course) {
+	public Review(String rating, String description) {
 		super();
 		this.rating = rating;
 		this.description = description;
